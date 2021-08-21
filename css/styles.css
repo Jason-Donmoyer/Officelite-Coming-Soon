@@ -1,0 +1,90 @@
+/******************************/
+         /* IMPORTS */
+/******************************/
+
+
+/********** FONTS ***********/
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+
+/******************************/
+        /* VARIABLES */
+/******************************/
+
+:root {
+
+  /********** FONTS ***********/
+
+  /* Font Family */
+
+  --main-font-family: 'Kumbh Sans', sans-serif;
+  
+  /* Font Weights */
+  
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /********** COLORS ***********/
+
+  --blue: hsl(228, 100%, 26%);
+  --light-blue: hsl(228, 100%, 75%);
+  --gray: hsl(227, 13%, 52%);
+  --dark-blackish-gray: hsl(228, 22%, 26%);
+  --very-dark-blackish-gray: hsl(229, 22%, 19%);
+  --light-red: hsl(0, 83%, 65%);
+
+}
+
+
+
+/******************************/
+         /* STYLES */
+/******************************/
+
+
+/* BODY */
+
+body {
+  font-family: var(--main-font-family);
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  line-height: 1.75rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+/* MAIN CONTAINER */
+
+.main-container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+
+/* HEADER */
+
+.header {
+  width: 28.625rem;
+  height: 28.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10.625rem;
+  left: -2.625rem;
+  background-image: url(../assets/home/bg-pattern-header.svg);
+  background-size: contain;
+}
+
+
+/* HERO STATS SECTION */
+
+.hero-stats-section {
+  height: 12rem;
+  width: 10.6875rem;
+  background-color: blue;
+}
